@@ -4,3 +4,23 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 5);
+    height: 100px;
+    background-color: #1389b2;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
